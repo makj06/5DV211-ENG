@@ -5,6 +5,12 @@ Full-stack application built with:
 - **Backend:** Python / Django
 - **Frontend:** React + Vite
 
+
+## Important information
+To run the application, it is necessary to configure the required environment variables. These variables are defined in a .env file located in the backend folder. The file already includes predefined variables, but their values must be filled in before the application can function properly.
+
+One of the required variables is the connection string for a PostgreSQL database. This database must be created and configured by the user of the project. Without a valid database connection, the application will not work. If database it running for the first time, its schema needs to be created by using python comand "python manage.py migrate".
+
 ---
 
 # 🚀 Project Setup (Step-by-Step)
