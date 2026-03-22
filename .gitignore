@@ -1,0 +1,30 @@
+# Keys
+key.txt
+eval_key.txt
+
+# Python / Django
+.venv/
+venv/
+db.sqlite3
+__pycache__/
+*.py[cod]
+*.log
+
+
+# Node / React / Vite
+my-project/frontend/node_modules/
+my-project/frontend/dist/
+my-project/frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
